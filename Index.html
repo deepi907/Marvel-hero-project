@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML Structure</title>
+
+    <link rel="stylesheet" href="./swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="./style.css">
+    <!-- Link to Unicons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <!-- Link to Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Make sure you have the closing head tag -->
+</head>
+<body>
+    <!-- Your content goes here -->
+    <section class="main">
+        <header>
+            <div class="logo">
+                <a href="">
+                    <span class="lg-font">Marvel</span> 
+                    <span class="lg-font">Characters</span>
+                </a>
+            </div>
+            <div class="search-container">
+                <div class="search-box">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+               <input type="text" class="search-input" placeholder="Search Marvel Characters">
+                </div>
+                <div class="search-results"></div>
+            </div>
+            <div class="main-menu">
+                <a class="menu-btn"><span>Menu</span><i class="uil uil-apps"></i></a>
+                <div class="menu-container">
+                    <div class="menu-window">
+                    <div class="menu-box">
+                    <div class="menu-inner">
+                    <div class="menu-close-btn"><i class="uil uil-times"></i> <span>Close</span></div>
+                    <div class="menu-bg-icon"><i class="uil uil-apps"></i></div>   
+                    <div class="menu-items">
+                        <a href=""><i class="uil uil-home"></i> Home</a>
+                        <a href=""><i class="uil uil-compass"></i> Explore</a>
+                        <a href=""><i class="uil uil-images"></i> Gallery</a>
+                        <a href=""><i class="uil uil-comment-message"></i> About</a>
+                        <a href=""><i class="uil uil-envelope"></i> Contact</a>
+                        </div>
+                        </div>   
+                </div>
+                    </div>
+                    </div>
+                    </div>
+                </header>
+
+                <div class="slide-container">
+                    <div class="swiper cardSwiper">
+                        <div class="swiper-wrapper" id="cardContainer">
+                            
+                            <div class="swiper-slide">
+                                <div class="card spiderman-bg" data-title="spiderman">
+                                    <div class="card-img">
+                                        <img src="Images/spiderman1.png" alt="" class="spiderman-img">
+                                        <span class="marvel-hero">1</span>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="info">
+                                            <h2>Spiderman</h2>
+                                            <div class="sub-info">
+                                                <span>Character</span>
+                                                <h4>Marvel Characters</h4>
+                                            </div>
+                                        </div>
+                                        <div class="read-more-btn">
+                                            <a><span>Read More</span><i class="fa fa-angle-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Add more slides here -->
+                            <div class="swiper-slide">
+                                <div class="card captain-bg" data-title="captain">
+                                    <div class="card-img">
+                                        <img src="Images/captain1.jpg" alt="" class="captain-img">
+                                        <span class="marvel-hero">2</span>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="info">
+                                            <h2>Captain</h2>
+                                            <div class="sub-info">
+                                                <span>Character</span>
+                                                <h4>Marvel Characters</h4>
+                                            </div>
+                                        </div>
+                                        <div class="read-more-btn">
+                                            <a><span>Read More</span><i class="fa fa-angle-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                           
+                            
+                         
+                                        <div class="swiper-slide">
+                                            <div class="card wanda-bg" data-title="wanda">
+                                                <div class="card-img">
+                                                    <img src="Images/Wanda.png" alt="" class="wanda-img">
+                                                    <span class="marvel-hero">3</span>
+                                                </div>
+                                                <div class="card-content">
+                                                    <div class="info">
+                                                        <h2>Wanda</h2>
+                                                        <div class="sub-info">
+                                                            <span>Character</span>
+                                                            <h4>Marvel Characters</h4>
+                                                        </div>
+                                                    </div>
+                                                    <div class="read-more-btn">
+                                                        <a><span>Read More</span><i class="fa fa-angle-right"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                           
+                                        
+
+                                          
+                                                    <div class="swiper-slide">
+                                                       
+                                                        <div class="card ironman-bg" data-title="ironman">
+                                                            <div class="card-img">
+                                                                <img src="Images/ironman.jpg" alt="" class="ironman-img">
+                                                                <span class="marvel-hero">4</span>
+                                                            </div>
+                                                            <div class="card-content">
+                                                                <div class="info">
+                                                                    <h2>Ironman</h2>
+                                                                    <div class="sub-info">
+                                                                        <span>Character</span>
+                                                                        <h4>Marvel Characters</h4>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="read-more-btn">
+                                                                    <a><span>Read More</span><i class="fa fa-angle-right"></i></a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+
+                                                    <div class="swiper-slide">
+                                                        <div class="card doctor-bg" data-title="doctor">
+                                                            <div class="card-img">
+                                                                <img src="Images/dc.jpg" alt="" class="doctor-img">
+                                                                <span class="marvel-hero">5</span>
+                                                            </div>
+                                                            <div class="card-content">
+                                                                <div class="info">
+                                                                    <h2>Doctorstrange</h2>
+                                                                    <div class="sub-info">
+                                                                        <span>Character</span>
+                                                                        <h4>Marvel Characters</h4>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="read-more-btn">
+                                                                    <a><span>Read More</span><i class="fa fa-angle-right"></i></a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+
+
+                                                   
+
+
+                                               
+
+
+                                                    <div class="swiper-slide">
+                                                        <div class="card thor-bg" data-title="thor">
+                                                            <div class="card-img">
+                                                                <img src="Images/thor.png" alt="" class="thor-img">
+                                                                <span class="marvel-hero">6</span>
+                                                            </div>
+                                                            <div class="card-content">
+                                                                <div class="info">
+                                                                    <h2>thor</h2>
+                                                                    <div class="sub-info">
+                                                                        <span>Character</span>
+                                                                        <h4>Marvel Characters</h4>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="read-more-btn">
+                                                                    <a><span>Read More</span><i class="fa fa-angle-right"></i></a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+
+
+
+                        </div>
+                        
+                    </div>
+                    <div class="slider-nav">
+                        <div class="swiper-button-next">Next <i class="fa fa-angle-right"></i></div>
+                        <div class="swiper-button-prev"><i class="fa fa-angle-left"></i> Prev</div>
+                    </div>
+                     </div>
+                    
+                     <div class="main-media-links">
+                       <a href=""><i class="uil uil-twitter"></i> Twitter</a>
+                       <a href=""><i class="uil uil-instagram"></i> Instagram</a>  
+                    </div>
+
+
+                    <div class= "modal-container">
+                     <div class="modal-box spiderman-bg" id="modal_spiderman">
+                       
+                        <audio id="modal-audio">
+                            <source src="Audio/rt-24fyzljscl431.mp3"></audio>
+                        <button id="play-audio">Play</button>
+                        <button id="pause-audio">Pause</button>
+                        
+
+                        <div class="modal-content">
+                             <a class="modal-close-btn"><i class="uil uil-times"></i> <span>Close</span></a>
+                               <div class="modal-inner">
+                                
+                                <h1 class="modal-bg-title">Spiderman</h1>
+                                 <div class="modal-media-icons">
+                                    <a href=""><i class="uil uil-twitter"></i></a>
+                                    <a href=""><i class="uil uil-instagram"></i></a>
+                                    
+                                
+                                 </div>
+                               <div class="modal-image-area">
+                                <img src="Images/spiderman1.png" alt="" class="modal-img">
+                               </div>
+                               <div class="modal-text-content"  style="color: rgba(255, 255, 255, 0.961);">
+                                <h1 class="modal-title">Spiderman</h1>
+                                <div class="modal-title-sub">
+                                    <span>Character</span>
+                                    <h4>Marvel Character</h4>
+                                </div>
+                                <p>Tom Holland's Spider-Man is portrayed as enthusiastic, funny, and somewhat awkward, making him more relatable to audiences. His youth and inexperience as a superhero are emphasized, as he learns what it means to balance his responsibilities and the dangers of his powers.</p>
+                                <a href="" class="modal-see-more"><span>See more</span> <i class="fa fa-angle-right"></i></a>
+                                <div class="marvel-hero-facts">
+                                    <div class="fact">
+                                        <h5>Origin:Peter Parker was bitten by a radioactive spider, gaining enhanced strength, agility, the ability to stick to walls, and a "spider-sense" that warns him of danger. </h5>
+                                        <span>In the MCU, he first appears in Captain America: Civil War (2016), where Tony Stark (Iron Man) recruits him to join the fight against Team Cap.</span>
+                                    </div>
+
+                                    <div class="fact">
+                                        <h5>Connection with the MCU: Tom Holland's Spider-Man is integrated into the MCU, where he interacts with other major characters, such as Iron Man (Tony Stark), Captain America, Doctor Strange, and others.</h5>
+                                        <span>88</span>
+                                    </div>
+
+                                    <div class="fact">
+                                        <h5>Costume & Gadgets:</h5>
+                                        <span>Holland's Spider-Man wears a high-tech suit given to him by Tony Stark, which is equipped with advanced features like web-shooters, artificial intelligence (J.A.R.V.I.S.), and various combat tools. Over time, Spider-Man creates his own suit with different upgrades.</span>
+                                    </div>
+
+
+                                    <div class="fact">
+                                        <h5>Key Movies:</h5>
+                                        <span>Spider-Man: Homecoming (2017),Avengers: Infinity War (2018),
+                                            Avengers: Endgame (2019),
+                                            Spider-Man: Far From Home (2019),
+                                            Spider-Man: No Way Home (2021)</span>
+                                    </div>
+                                </div>
+                               </div>
+                            </div>
+                            </div>
+                     </div>
+                     
+                    
+                
+                    <div class="modal-box captain-bg" id="modal_captain">
+                       
+                       
+                        
+
+                        <div class="modal-content">
+                             <a class="modal-close-btn"><i class="uil uil-times"></i> <span>Close</span></a>
+                               <div class="modal-inner">
+                                
+                                <h1 class="modal-bg-title">Captain</h1>
+                                 <div class="modal-media-icons">
+                                    <a href=""><i class="uil uil-twitter"></i></a>
+                                    <a href=""><i class="uil uil-instagram"></i></a>
+                                    
+                                
+                                 </div>
+                               <div class="modal-image-area">
+                                <img src="Images/captain1.jpg" alt="" class="modal-img">
+                               </div>
+                               <div class="modal-text-content" >
+                                <h1 class="modal-title">Captain-America</h1>
+                                <div class="modal-title-sub">
+                                    <span>Character</span>
+                                    <h4>Marvel Character</h4>
+                                </div>
+                                <p>Captain America, also known as Steve Rogers, is one of the most iconic superheroes in the Marvel Cinematic Universe (MCU) and the leader of the Avengers.</p>
+                                <a href="" class="modal-see-more"><span>See more</span> <i class="fa fa-angle-right"></i></a>
+                                <div class="marvel-hero-facts">
+                                    <div class="fact">
+                                        <h5>Origin: </h5>
+                                        <span>Captain America gained his abilities through the Super Soldier Serum, which amplified his physical and mental attributes to the peak of human potential..</span>
+                                    </div>
+
+                                    <div class="fact">
+                                        <h5>Lifting Thor’s Hammer: In Avengers: Endgame, Steve proves himself worthy by lifting Mjolnir, Thor's enchanted hammer, a moment that thrilled fans worldwide.</h5>
+                                        <span></span>
+                                    </div>
+
+                                    <div class="fact">
+                                        <h5>Frozen in Time:</h5>
+                                        <span>After crashing a plane into the Arctic to save the world, Steve Rogers was frozen in ice for nearly 70 years before being discovered and revived by S.H.I.E.L.D..</span>
+                                    </div>
+
+
+                                    <div class="fact">
+                                        <h5>Love for Peggy Carter:</h5>
+                                        <span>His romance with Peggy Carter is one of the most touching love stories in the MCU, culminating in a happy ending when he travels back in time to live his life with her</span>
+                                    </div>
+                                </div>
+                               </div>
+                            </div>
+                            </div>
+                     </div>
+               
+
+            
+
+             <div class="modal-box wanda-bg" id="modal_wanda">
+                       
+             
+                <div class="modal-content">
+                     <a class="modal-close-btn"><i class="uil uil-times"></i> <span>Close</span></a>
+                       <div class="modal-inner">
+                        
+                        <h1 class="modal-bg-title">Wanda</h1>
+                         <div class="modal-media-icons">
+                            <a href=""><i class="uil uil-twitter"></i></a>
+                            <a href=""><i class="uil uil-instagram"></i></a>
+                            
+                        
+                         </div>
+                       <div class="modal-image-area">
+                        <img src="Images/Wanda.png" alt="" class="modal-img">
+                       </div>
+                       <div class="modal-text-content"  style="color: rgba(255, 255, 255, 0.961);">
+                        <h1 class="modal-title">Wanda</h1>
+                        <div class="modal-title-sub">
+                            <span>Character</span>
+                            <h4>Marvel Character</h4>
+                        </div>
+                        <p>Wanda possesses chaos magic, which allows her to alter reality, manipulate probabilities, and perform powerful spells.
+                            Her abilities grew over time, making her one of the most formidable beings in the Marvel Universe.</p>
+                        <a href="" class="modal-see-more"><span>See more</span> <i class="fa fa-angle-right"></i></a>
+                        <div class="marvel-hero-facts">
+                            <div class="fact">
+                                <h5>Origin:Origins: Wanda was initially introduced as a mutant, the daughter of Magneto in Marvel Comics. However, her origins have been revised multiple times, with some versions identifying her as a human enhanced by the High Evolutionary. </h5>
+                                <span>She has a twin brother, Pietro Maximoff (Quicksilver), who possesses superhuman speed. Their sibling bond has been a central part of her character.</span>
+                            </div>
+
+                            <div class="fact">
+                                <h5>MCU Highlights: Tom Holland's Spider-Man is integrated into the MCU, where he interacts with other major characters, such as Iron Man (Tony Stark), Captain America, Doctor Strange, and others.</h5>
+                                <span>Portrayed by Elizabeth Olsen, Wanda has a major character arc in the MCU.
+                                    From a villain in Avengers: Age of Ultron to a hero in Infinity War and a tragic anti-hero in WandaVision and Doctor Strange in the Multiverse of Madness.</span>
+                            </div>
+
+                            <div class="fact">
+                                <h5>Iconic Powers:</h5>
+                                <span>Hex Bolts: Her signature red energy blasts.
+                                    Reality Warping: Altering probabilities and manipulating reality.
+                                    Mind Manipulation: Seen in both comics and the MCU, she can delve into and manipulate the minds of others..</span>
+                            </div>
+
+
+                            <div class="fact">
+                                <h5>Costume Evolution:</h5>
+                                <span>Wanda’s classic look includes her red cape, headdress, and bodysuit. Over the years, her costume has evolved to reflect her status as the Scarlet Witch, with mystical, modern designs.</span>
+                            </div>
+                        </div>
+                       </div>
+                    </div>
+                    </div>
+             </div>
+             
+             <div class="modal-box ironman-bg" id="modal_ironman">
+                       
+              
+                
+
+                <div class="modal-content">
+                     <a class="modal-close-btn"><i class="uil uil-times"></i> <span>Close</span></a>
+                       <div class="modal-inner">
+                        
+                        <h1 class="modal-bg-title">Ironman</h1>
+                         <div class="modal-media-icons">
+                            <a href=""><i class="uil uil-twitter"></i></a>
+                            <a href=""><i class="uil uil-instagram"></i></a>
+                            
+                        
+                         </div>
+                       <div class="modal-image-area">
+                        <img src="Images/ironman.jpg" alt="" class="modal-img">
+                       </div>
+                       <div class="modal-text-content"  style="color: rgba(255, 255, 255, 0.961);">
+                        <h1 class="modal-title">Ironman</h1>
+                        <div class="modal-title-sub">
+                            <span>Character</span>
+                            <h4>Marvel Character</h4>
+                        </div>
+                        <p>Tony Stark is a genius billionaire inventor and the CEO of Stark Industries, a major weapons manufacturer. His origin story is tied to an accident in which he is kidnapped by terrorists who use his own weapons against him. Forced to build a weapon for them, Stark instead creates a suit of armor to escape. Later, he refines the suit and uses it to fight evil, defend the world, and battle personal demons. His creation of the Iron Man suit marks his transformation from a weapons manufacturer to a superhero</p>
+                        <a href="" class="modal-see-more"><span>See more</span> <i class="fa fa-angle-right"></i></a>
+                        <div class="marvel-hero-facts">
+                            <div class="fact">
+                                <h5>Origin: </h5>
+                                <span>Tony Stark was captured by terrorists and severely injured by shrapnel from a bomb. While in captivity, he was forced to build a powerful weapon for his captors. Instead, he built the first version of his Iron Man armor to escape.</span>
+                            </div>
+
+                            <div class="fact">
+                                <h5> Artificial Intelligence (AI): </h5>
+                                <span>Stark has developed several AIs, most notably J.A.R.V.I.S. (Just A Rather Very Intelligent System) and F.R.I.D.A.Y., which assist him in managing his personal life, operating his armor, and leading his business.</span>
+                            </div>
+
+                            <div class="fact">
+                                <h5>The Avengers:</h5>
+                                <span>Tony Stark is one of the founding members of The Avengers, a superhero team that includes characters like Captain America, Thor, Black Widow, and Hawkeye.</span>
+                            </div>
+
+
+                            <div class="fact">
+                                <h5> Iron Man’s Helmet Once had a Nose</h5>
+                                <span>This fun fact might make you chuckle. Around 1974, Stan Lee asked an illustrator why Iron Man’s helmet didn’t have a nose, so the illustrator gave it one. Stan rapidly realized this looked very odd and fortunately agreed to retract it</span>
+                            </div>
+                        </div>
+                       </div>
+                    </div>
+                    </div>
+             </div>
+             
+ 
+             <div class="modal-box doctor-bg" id="modal_doctor">
+                       
+                
+
+                <div class="modal-content">
+                     <a class="modal-close-btn"><i class="uil uil-times"></i> <span>Close</span></a>
+                       <div class="modal-inner">
+                        
+                        <h1 class="modal-bg-title">Doctor-strange</h1>
+                         <div class="modal-media-icons">
+                            <a href=""><i class="uil uil-twitter"></i></a>
+                            <a href=""><i class="uil uil-instagram"></i></a>
+                            
+                        
+                         </div>
+                       <div class="modal-image-area">
+                        <img src="Images/do.png" alt="" class="modal-img">
+                       </div>
+                       <div class="modal-text-content"  style="color: rgba(255, 255, 255, 0.961);">
+                        <h1 class="modal-title">Doctor-strange</h1>
+                        <div class="modal-title-sub">
+                            <span>Character</span>
+                            <h4>Marvel Character</h4>
+                        </div>
+                        <p> Doctor Strange is a master of the mystic arts, blending science, sorcery, and philosophy into one of the most unique superhero identities..</p>
+                        <a href="" class="modal-see-more"><span>See more</span> <i class="fa fa-angle-right"></i></a>
+                        <div class="marvel-hero-facts">
+                            <div class="fact">
+                                <h5>Origin:Doctor Strange's character arc is deeply philosophical, exploring themes of ego, redemption, humility, and responsibility. His journey transforms him from a self-centered surgeon into a protector of reality who constantly sacrifices personal desires for the greater good.. </h5>
+                                <span>His stories challenge readers and viewers to think about reality, time, and existence, making him one of Marvel's most intriguing and intellectually stimulating characters.</span>
+                            </div>
+
+                            <div class="fact">
+                                <h5>Powers and Abilities: </h5>
+                                <span></span>
+                            </div>
+
+                            <div class="fact">
+                                <h5>Astral Projection:</h5>
+                                <span>The ability to separate his spirit from his physical body..</span>
+                            </div>
+
+
+                            <div class="fact">
+                                <h5>Time Manipulation: </h5>
+                                <span>He has the ability to manipulate time, most famously using the Eye of Agamotto (which in the MCU contains the Time Stone) to alter time. This was a key plot element in Avengers: Infinity War and Avengers: Endgame.</span>
+                            </div>
+                        </div>
+                       </div>
+                    </div>
+                    </div>
+             </div>
+
+
+             <div class="modal-box thor-bg" id="modal_thor">
+                       
+              
+                
+
+                <div class="modal-content">
+                     <a class="modal-close-btn"><i class="uil uil-times"></i> <span>Close</span></a>
+                       <div class="modal-inner">
+                        
+                        <h1 class="modal-bg-title">Thor</h1>
+                         <div class="modal-media-icons">
+                            <a href=""><i class="uil uil-twitter"></i></a>
+                            <a href=""><i class="uil uil-instagram"></i></a>
+                            
+                        
+                         </div>
+                       <div class="modal-image-area">
+                        <img src="Images/thor-png-18488.png" alt="" class="modal-img">
+                       </div>
+                       <div class="modal-text-content"  style="color: rgba(255, 255, 255, 0.961);">
+                        <h1 class="modal-title">Thor</h1>
+                        <div class="modal-title-sub">
+                            <span>Character</span>
+                            <h4>Marvel Character</h4>
+                        </div>
+                        <p>In Norse mythology, Thor is the god of thunder, storms, and protection, wielding Mjolnir to safeguard the realms. Marvel’s adaptation blends these mythological roots with sci-fi and superhero elements.</p>
+                        <a href="" class="modal-see-more"><span>See more</span> <i class="fa fa-angle-right"></i></a>
+                        <div class="marvel-hero-facts">
+                            <div class="fact">
+                                <h5>Origin: </h5>
+                                <span>Thor, the God of Thunder, is one of Marvel Comics' most iconic and powerful superheroes, drawing inspiration from Norse mythology. Created by Stan Lee, Larry Lieber, and Jack Kirby.</span>
+                            </div>
+
+                            <div class="fact">
+                                <h5> Superhuman Strength, Speed, and Durability: </h5>
+                                <span>As a god, Thor has near-invincible physical powers.</span>
+                            </div>
+
+                            <div class="fact">
+                                <h5>Immortality and Longevity: </h5>
+                                <span>As an Asgardian, Thor ages incredibly slowly and is resistant to most earthly diseases.</span>
+                            </div>
+
+
+                            <div class="fact">
+                                <h5> All-Weapon Mastery:</h5>
+                                <span>Thor is a skilled fighter with all types of weaponry, including his mighty axe, Stormbreaker, introduced in the MCU.</span>
+                            </div>
+                        </div>
+                       </div>
+                    </div>
+                    </div>
+             </div>
+             
+
+                    </div>
+                   </section>
+    <script src="/swiper-bundle.min.js"></script>
+
+    <script src="/main.js"></script>
+</body>
+</html>
